@@ -1,0 +1,13 @@
+footer {
+    color: red;
+    bottom: 0;
+    font-family: initial;
+    color: #574d4d;
+    width: 100%;
+  }
+
+  .footer ul{
+    list-style: none;
+  }
+  
+  

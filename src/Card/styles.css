@@ -1,0 +1,10 @@
+.mainCard .card {
+    border-style: none;
+    align-items: center;
+
+}
+
+.cardImage {
+    width: 150px !important;
+}
+
