@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
        <ul>
-          <li>Antrakland Web 2022</li>
+          <li>Antrakland E-Shop 2022</li>
        </ul>
     </footer>
 
