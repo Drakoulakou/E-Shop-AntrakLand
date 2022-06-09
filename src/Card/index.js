@@ -9,17 +9,19 @@ function MainCard(props) {
                 <Card.Img className="cardImage" variant="top" src={props.image} />
                 <Card.Body>
                     <Card.Title>
-                        <h3>
+                        <h4>
                             {props.title}
-                        </h3>
+                        </h4>
                     </Card.Title>
                     <Card.Text>
                         {props.description}
                     </Card.Text>
                     <Card.Text>
-                        <h3>{props.price}</h3>
+                        <h4>{props.price}</h4>
                     </Card.Text>
-                    <Button variant="warning">More Details</Button>
+                    <Button className="button" variant="warning">
+                        {props.button}
+                    </Button>
                 </Card.Body>
             </Card>
         </div>

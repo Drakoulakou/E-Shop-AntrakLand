@@ -1,4 +1,6 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
+
 
 function Header(props) {
 
@@ -6,18 +8,18 @@ function Header(props) {
         <header className='header'>
             <div className="mainMenu">
                 <img className="logo" src={props.image} />
-                <h1>
+                <h1 style={{ color: props.xrwma}}>
                      {props.companyName}
                 </h1>
             </div>
            
-            <div>
+            <nav>
                 <ul className="rightMenu">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Contact us</li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">Products</Link></li>
+                    <li><Link to="/contact-us">Contact us</Link></li>
                 </ul>
-            </div>
+            </nav>
         </header>
     )
 }

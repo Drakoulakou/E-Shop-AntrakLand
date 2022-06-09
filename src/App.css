@@ -4,15 +4,9 @@ h1 {
   color: #574d4d;
   padding: 30px;
 }
-body{
-  border-color: #ffc107;
-    border-width: 0.5em;
-    border-style: dashed;
-}
 
 .App {
   text-align: center;
-  padding-top: 130px;
 }
 
 .slick-slider {
@@ -24,4 +18,7 @@ body{
   height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.content{
+  padding-top: 100px;
 }
