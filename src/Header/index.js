@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <header className='header'>
             <div className="mainMenu">
-                <img className="logo" src={props.image} />
+                <img className="logo" src={props.image} alt="Our company logo" />
                 <h1 style={{ color: props.xrwma}}>
                      {props.companyName}
                 </h1>

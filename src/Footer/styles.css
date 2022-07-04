@@ -4,6 +4,8 @@ footer {
     font-family: initial;
     color: #574d4d;
     width: 100%;
+    position:absolute;
+    bottom:0;
   }
 
   .footer ul{
