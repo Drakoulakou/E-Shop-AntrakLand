@@ -2,7 +2,7 @@
   "name": "testaki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drakoulakou.github.io/antrakland/",
+  "homepage": "https://drakoulakou.github.io/E-Shop-AntrakLand/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
