@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/antrakland/static/css/main.03b394b8.css",
+    "main.js": "/antrakland/static/js/main.ee618274.js",
+    "static/media/slick.svg": "/antrakland/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/antrakland/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/antrakland/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/antrakland/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/antrakland/index.html",
+    "main.03b394b8.css.map": "/antrakland/static/css/main.03b394b8.css.map",
+    "main.ee618274.js.map": "/antrakland/static/js/main.ee618274.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03b394b8.css",
+    "static/js/main.ee618274.js"
+  ]
+}
