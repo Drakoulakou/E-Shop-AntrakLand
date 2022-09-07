@@ -1,6 +1,4 @@
 # Adrakland e-shop
+## Made with React
 
-Installation
-
-- Run `npm install`
-- Run `npm start`
+<a href='https://drakoulakou.github.io/E-Shop-AntrakLand/'>View Live</a>
