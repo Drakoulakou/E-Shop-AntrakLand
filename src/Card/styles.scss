@@ -1,0 +1,35 @@
+.mainCard {
+    .body {
+        width: 350px;
+        position: relative;
+    }
+
+    img {
+        width: 100px !important;
+    }
+
+    .button {
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .description {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 50px;
+        white-space: pre-line;
+    }
+
+    .card {
+        width: 350px;
+        align-items: center;
+        height: 500px;
+        border: 1px solid #ffc61a7a;
+        border-top: none;
+        border-left: none;
+    }
+    .cardImage{
+        height: 100px;   
+    }
+}

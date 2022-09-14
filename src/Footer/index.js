@@ -1,11 +1,11 @@
-import "./styles.css";
+import "./styles.scss";
 
 function Footer() {
 
   return (
     <footer className="footer">
        <ul>
-          <li>Antrakland E-Shop 2022</li>
+          <li>Made by FreeDOM</li>
        </ul>
     </footer>
 

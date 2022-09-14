@@ -1,12 +1,15 @@
-h1 {
-  font-size: 2.5rem;
-  font-family: inherit;
-  color: #574d4d;
-  padding: 30px;
-}
+$font-stack: Helvetica, sans-serif;
+$primary-color: #574d4d;
 
 .App {
   text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    font-family: $font-stack;
+    color: $primary-color;
+    padding: 30px;
+  }
 }
 
 .slick-slider {

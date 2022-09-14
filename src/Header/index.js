@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import { Link } from "react-router-dom";
 
 
@@ -16,7 +16,7 @@ function Header(props) {
             <nav>
                 <ul className="rightMenu">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">Products</Link></li>
+                    <li><Link to="/products">Products</Link></li>
                     <li><Link to="/contact-us">Contact us</Link></li>
                 </ul>
             </nav>

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
@@ -8,6 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import AllProducts from './All-Products';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Header image="https://us.123rf.com/450wm/iaroslavbrylov/iaroslavbrylov1706/iaroslavbrylov170600052/80548373-fitness-vector-logo-design-template-design-for-gym-and-fitness.jpg?ver=6" companyName="AntrakLand" />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path='/products' element={<AllProducts/>} />
             <Route path="/contact-us" element={<Contact />} />
           </Routes>
           <Footer />

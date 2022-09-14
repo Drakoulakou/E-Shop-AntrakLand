@@ -1,4 +1,4 @@
-import './styles.css';
+import './styles.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button } from 'react-bootstrap';
 
