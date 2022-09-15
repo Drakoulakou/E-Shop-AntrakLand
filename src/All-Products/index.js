@@ -30,7 +30,7 @@ function AllProducts() {
 
     return (
         <div>
-            <h2>All products</h2>
+            <h1>All products</h1>
             {allProducts.length === 0 ? <div>Loading...</div> : getContent()}
         </div>
     );

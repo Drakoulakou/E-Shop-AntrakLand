@@ -2,6 +2,7 @@
     .body {
         width: 350px;
         position: relative;
+        padding: 10px;
     }
 
     img {
@@ -26,8 +27,6 @@
         align-items: center;
         height: 500px;
         border: 1px solid #ffc61a7a;
-        border-top: none;
-        border-left: none;
     }
     .cardImage{
         height: 100px;   

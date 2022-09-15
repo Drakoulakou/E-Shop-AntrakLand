@@ -9,6 +9,8 @@ import {
   Route,
 } from "react-router-dom";
 import AllProducts from './All-Products';
+import Categories from './Categories';
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path='/products' element={<AllProducts/>} />
+            <Route path="/categories" element={<Categories />} />
             <Route path="/contact-us" element={<Contact />} />
           </Routes>
           <Footer />

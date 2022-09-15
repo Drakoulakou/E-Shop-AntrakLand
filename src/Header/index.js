@@ -1,5 +1,6 @@
 import "./styles.scss";
 import { Link } from "react-router-dom";
+import CategoryLinks from "../CategoryLinks";
 
 
 function Header(props) {
@@ -17,6 +18,7 @@ function Header(props) {
                 <ul className="rightMenu">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/products">Products</Link></li>
+                    <li><CategoryLinks /></li>
                     <li><Link to="/contact-us">Contact us</Link></li>
                 </ul>
             </nav>
