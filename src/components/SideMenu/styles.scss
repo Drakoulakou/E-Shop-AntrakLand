@@ -1,0 +1,38 @@
+$primary-color: #ffc61a;
+
+.side-menu-wrapper {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    transition: 0.5s;
+
+    &.closed {
+        margin-left: -204px;
+    }
+
+
+    .side-menu {
+        background-color: $primary-color;
+        height: 100vh;
+
+    }
+
+    .side-menu-handle {
+
+        button {
+            background-color: $primary-color;
+            border: none;
+            width: 70px;
+            height: 50px;
+            font-size: 1.1rem;
+            border-radius: 0 10px 10px 0;
+        }
+    }
+
+
+}

@@ -1,51 +1,51 @@
 $primary-color: #ffc107eb;
 
-.logo{
-    width: 170px;
-    height: 170px;
-  }
+.logo {
+  width: 121px;
+  height: 101px;
+}
 
 .header {
-    display:flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: $primary-color;
-    position: fixed;
-    z-index: 99999;
-    top: 0;
-    width: 100%;
-    height: 100px;
-  }
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $primary-color;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  width: 100%;
+  height: 100px;
+}
 
-  a:visited {
-    color: #574d4d;
-  }
+a:visited {
+  color: #574d4d;
+}
 
-  .header--alt {
-    opacity: 0.5;
-  }
+.header--alt {
+  opacity: 0.5;
+}
 
-  .mainMenu{
-      display: flex;
-      align-items: center;
+.mainMenu {
+  display: flex;
+  align-items: center;
 
-  }
-  .rightMenu{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+}
 
-  }
-  .rightMenu li{
-    margin-right: 50px;
-    font-size: 1.5rem;
-    font-family: initial;
-    color: #574d4d;
-  }
+.rightMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
-  .header ul{
-    list-style: none;
-  }
+}
 
- 
+.rightMenu li {
+  margin-right: 50px;
+  font-size: 1.5rem;
+  font-family: initial;
+  color: #574d4d;
+}
+
+.header ul {
+  list-style: none;
+}

@@ -1,7 +1,9 @@
 import "./styles.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-function CategoryLinks() {
+
+function DropDown(props) {
 
     const [dropDown, setdropDown] = useState(false);
 
@@ -10,10 +12,11 @@ function CategoryLinks() {
         return (
             <div className='drop-down-menu'>
                 <ul name="selectList" id="selectList" >
-                    <li value="option 1">Women's clothes</li>
-                    <li value="option 2">Electronics</li>
-                    <li value="option 3">Jeweleries</li>
-                    <li value="option 4">Men's clothes</li>
+                    {props.categories.map(i => (
+                        <li key={i}>
+                            <Link to="/categories?category=">{i}</Link>
+                        </li>
+                    ))}
                 </ul>
             </div>
         )
@@ -23,13 +26,11 @@ function CategoryLinks() {
         <div onMouseLeave={() => setdropDown(false)}
             onMouseEnter={() => setdropDown(true)}>
             <label
-
-
-            >Categories
+            >{props.title}
             </label>
             {dropDown && dropDownMenu()}
         </div>
     )
 }
 
-export default CategoryLinks;
+export default DropDown;

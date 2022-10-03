@@ -8,16 +8,16 @@ function MainCard(props) {
             <Card>
                 <Card.Body className='card'>
                     <Card.Title className='cardTitle'>
-                        <h4>
+                        <span>
                             {props.title}
-                        </h4>
+                        </span>
                     </Card.Title>
                     <Card.Img className="cardImage" variant="top" src={props.image} />
                     <Card.Text>
-                        <p className='description' >{props.description}</p>
+                        <span className='description' >{props.description}</span>
                     </Card.Text>
                     <Card.Text>
-                        <h4>{props.price}€</h4>
+                        <span>{props.price}€</span>
                     </Card.Text>
                     <Button className="button" variant="warning">
                         {props.button} More Details
