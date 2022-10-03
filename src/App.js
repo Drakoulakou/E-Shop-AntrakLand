@@ -1,6 +1,6 @@
 import './App.scss';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './components/Layout/components/Header';
+import Footer from './components/Layout/components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import {
@@ -33,7 +33,7 @@ function App() {
         <div className="content">
           <BrowserRouter>
             <Header image="https://us.123rf.com/450wm/iaroslavbrylov/iaroslavbrylov1706/iaroslavbrylov170600052/80548373-fitness-vector-logo-design-template-design-for-gym-and-fitness.jpg?ver=6" companyName="AntrakLand" />
-            <SideMenu  categories={[]}/>
+            <SideMenu categories={[]} />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path='/products' element={<AllProducts />} />

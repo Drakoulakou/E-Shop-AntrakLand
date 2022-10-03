@@ -20,7 +20,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className='slick-slider-wrapper'>
         <Slider {...settings}>
         <div>
           <div className='imageCarousel' style={{ backgroundImage: "url(https://www.popsci.com/uploads/2022/03/02/aviv-rachmadian-7F7kEHj72MQ-unsplash-scaled.jpg?auto=webp)" }}></div>

@@ -1,8 +1,8 @@
 import "./styles.scss";
 import { Link } from "react-router-dom";
-import DropDown from "../components/DropDown";
+import DropDown from "../../../DropDown";
 import { useContext } from "react";
-import { CategoriesContext } from '../App'
+import { CategoriesContext } from '../../../../App'
 
 function Header(props) {
 

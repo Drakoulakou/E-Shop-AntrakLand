@@ -11,11 +11,10 @@ $primary-color: #574d4d;
     padding: 30px;
   }
 }
-
-.slick-slider {
-  background-color: #574d4d;
-  
+.slick-slider-wrapper{
+  overflow: hidden;
 }
+
 .imageCarousel{
   background-repeat: no-repeat;
   background-size: cover;
